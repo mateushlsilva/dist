@@ -26,4 +26,5 @@ const users = database.define('users', {
         allowNull: false
     }
 });
+users.sync({ alter: true });
 module.exports = users;

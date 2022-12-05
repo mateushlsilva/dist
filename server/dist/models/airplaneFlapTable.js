@@ -28,4 +28,5 @@ const airplaneFlap = database.define('airplaneFlap', {
         }
     }
 });
+airplaneFlap.sync({ alter: true });
 module.exports = airplaneFlap;

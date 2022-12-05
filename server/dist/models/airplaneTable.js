@@ -38,4 +38,5 @@ const airplane = database.define('airplanes', {
         allowNull: false
     }
 });
+airplane.sync({ alter: true });
 module.exports = airplane;

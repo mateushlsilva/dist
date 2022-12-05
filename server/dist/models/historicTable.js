@@ -61,4 +61,5 @@ historic.belongsTo(flapId, {
     constraint: true,
     foreignKey: 'flapId'
 });
+historic.sync({ alter: true });
 module.exports = historic;
